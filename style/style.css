@@ -1,0 +1,337 @@
+@charset "UTF-8";
+
+/* Reset 시작 */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+/* Reset 끝 */
+
+
+/* Guide Line 시작 */
+/*div#wrap                     {border: 1px solid #000;}*/
+/*div#header_top>div     {border: 1px solid #000;}*/
+/*div#header_top>nav    {border: 1px solid #000;}*/
+/*div#header_bottom       {border: 1px solid #000;}*/
+/*aside#aside                   {border: 1px solid #000;}*/
+footer#footer div#footer_top     {border: 1px solid #aaa;}
+/* Guide Line 끝 */
+
+
+/* div#wrap 시작 */
+div#wrap {
+    width: 100%;
+}
+/* div#wrap 끝 */
+
+
+/* header 시작 */
+header#header {
+    margin-bottom: 15px;
+}
+header#header div#header_top {
+    height: 100px;
+}
+
+#header_top div.logo {
+    width: 40%;
+    padding-left: 250px;
+}
+
+header#header div.gnb {
+    font-size: 15px;
+    color: #fff;
+    height: 45px;
+    background-color: #686868;
+    display: flex;
+}
+
+div.gnb>div#category {
+    width: 25%;
+}
+
+div.gnb>div#category a {
+    line-height: 45px;
+    color: #fff;
+    background: black;
+    display: inline-block;
+    height: 100%;
+    margin-left: 260px;
+    padding: 0 10px;
+}
+
+div.gnb>nav#gnb ul {
+    margin-left: 50px;
+}
+
+div.gnb>nav#gnb {
+    width: 50%;
+}
+
+div.gnb>nav#gnb li {
+    padding-top: 12px;
+    margin-left: 15px;
+    float: left;
+}
+
+div.gnb>nav#gnb a {
+    padding: 10px 35px;
+    text-align: center;
+    color: #fff;
+}
+div.gnb>div#list {
+    width: 25%;
+}
+div.gnb>div#list a {
+    line-height: 45px;
+    color: #fff;
+    background: black;
+    display: inline-block;
+    height: 100%;
+    margin-left: 43px;
+    padding: 0 10px;
+}
+/* header 끝 */
+
+/* div#subMenuBG 시작 */
+div#subMenuBG {
+	width: 100%;
+	position: relative;
+	display: none;
+/*	margin-top: -15px;*/
+}
+div#subMenuBGLayout {
+	width: 100%;
+	height: 530px;
+	background-color: rgba(255, 255, 255, 0.46);
+	border-bottom: 1px solid #aaa;
+	position: absolute;
+}
+/* div#subMenuBG 끝 */
+
+
+/* main#main 시작*/
+main#main div#slideshow {
+    text-align: center;
+}
+/* main#main 끝*/
+
+
+/* aside#aside 시작 */
+aside#aside table#FirstTbl {
+    width: 1200px;
+    height: 300px;
+    margin: 0 auto;
+    border-spacing: 20px;
+    margin-bottom: 20px;
+}
+
+aside#aside table#FirstTbl td {
+    width: 360px;
+    padding-left: 15px;
+    border: 1px solid #aaa;
+}
+
+    /* div#mdchoice 시작 */
+div#mdchoice {
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+}
+
+div#mdchoice table {
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 660px;
+    border-spacing: 15px;
+    margin-bottom: 80px;
+}
+
+div#mdchoice table td {
+    border: none;
+}
+    /* div#mdchoice 끝 */
+
+hr {
+    width: 1170px;
+    margin-left: 270px;
+    margin-bottom: 60px;
+    background-color: #eee;
+}
+
+    /* div#hot_deal 시작 */
+div#hot_deal {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+div#hot_deal p {
+    margin-bottom: 40px;
+}
+
+div#hot_deal table {
+    margin-top: 30px;
+    width: 660px;
+    border-spacing: 15px;
+    margin: 0 auto;
+}
+
+div#hot_deal table td {
+    border: none;
+}
+    /* div#hot_deal 끝 */
+
+    /* div#tvmovie 시작 */
+div#tvmovie {
+    margin-top: 70px;
+}
+
+div#tvmovie p.first_p {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+div#tvmovie div {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+div#tvmovie>table>tbody>tr p {
+    width: 260px;
+    margin-left: 55px;
+}
+
+aside#aside>div#tvmovie>table {
+    margin: 0 auto;
+    margin-bottom: 56px;
+    border: 2px solid #ddd;
+    border-collapse: collapse;
+}
+
+aside#aside>div#tvmovie>table>tbody>tr>td {
+
+}
+
+div#tvmovie>table>tbody>tr:first-child>td:first-child {
+    padding: 0px;
+}
+
+div#tvmovie>table>tbody>tr:first-child>td:nth-child(2) {
+    width: 420px;
+    font-weight: bold;
+    text-align: center;
+    padding-right: 25px;
+}
+
+table#innerTbl {
+    margin-top: 70px;
+    margin-left: 47px;
+    font-size: 200px;
+}
+
+div#tvmovie>table>tbody>tr:first-child>td:nth-child(2) table td {
+    height: 90px;
+    font-size: 13px;
+    text-align: left;
+    padding-left: 12px;
+}
+div#tvmovie>table>tbody>tr:first-child>td:nth-child(2) table td:last-child {
+    padding-right: 20px;
+}
+
+div#tvmovie>table>tbody>tr:first-child>td:nth-child(2) table td:first-child {
+    width: 30px;
+}
+
+table#innerTbl span{
+    color: #a8a8a8;
+    font-weight: bold;
+}
+
+table#innerTbl a {
+    color: #000;
+    font-weight: lighter;
+}
+
+div#tvmovie>table>tbody>tr:first-child>td:nth-child(2) table td:nth-child(2) {
+    width: 300px;
+}
+    /* div#tvmovie 끝 */
+
+/* aside#aside 끝 */
+
+
+/* footer#footer 시작 */
+footer#footer div#footer_top {
+    height: 50px;
+    display: flex;
+}
+
+#footer_top span {
+    font-size: 14px;
+}
+
+#footer_top a {
+    color: #000;
+}
+
+#footer_top div.one {
+    width: 50%;
+    padding-left: 273px;
+    padding-top: 10px;
+}
+
+#footer_top div.snslink {
+    width: 50%;
+    margin-left: 800px;
+    padding-top: 10px;
+}
+
+#footer_top div.snslink a {
+    padding-right: 6px;
+}
+
+footer#footer div#footer_bottom {
+    height: 155px;
+    display: flex;
+}
+
+#footer_bottom div#logo {
+    width: 34%;
+    padding-left: 260px;
+    padding-top: 30px;
+}
+
+#footer_bottom div#companyInfo {
+    font-size: 14px;
+    color: #999;
+    font-weight: bold;
+    width: 38%;
+    padding: 10px;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+#footer_bottom div#service_img {
+    width: 31%;
+    padding-top: 30px;
+}
+/* footer#footer 끝 */
+
+
+
+
+
+
+
+
